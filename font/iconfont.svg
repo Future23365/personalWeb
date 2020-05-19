@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="xiafan" unicode="&#59245;" d="M544.019-19.418l-32.164-44.576-31.849 44.576-0.055 787.428h64.013zM512.134-63.994L193.397 254.42l45.203 45.135 318.737-318.413zM466.705-18.858l320.694 320.371 45.204-45.135-320.694-320.372z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>
