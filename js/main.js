@@ -3,13 +3,11 @@ let startLi = document.querySelectorAll(".first-screen ul li");
 let body = document.querySelector("body");
 let firstScreen = document.querySelector(".first-screen");
 let next = document.querySelector(".first-screen .next-button");
-console.log(next);
 
 body.style.overflow = "hidden";
 next.addEventListener("click", function(event) {
   console.log("14");
-  
-  // console.log(step);
+
   let position = firstScreen.offsetHeight + 1;
   
   let timer = setInterval(function() {
@@ -21,13 +19,14 @@ next.addEventListener("click", function(event) {
       document.documentElement.scrollTop = step;
     }else {
       body.style.overflow = "auto";
+      // firstScreen.style.display = "none";
       clearInterval(timer);
     }
     console.log(`step:${step}`);
     
   }, 50)
   
-  
 })
+
 
 
